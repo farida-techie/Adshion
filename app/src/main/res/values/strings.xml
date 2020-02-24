@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adshion</string>
+    <string name="plse">+</string>
+    <string name="dived">/</string>
+    <string name="muns">-</string>
+    <string name="miltpy">*</string>
+</resources>

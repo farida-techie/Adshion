@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etInput1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Enter Fist number"
+        android:inputType="textUri|number"
+        android:textColorHint="#F7F00528"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:text="@string/plse"
+            android:textSize="30dp"
+            android:onClick="operatorPles"
+            android:id="@+id/btn_plse">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:text="@string/muns"
+            android:textSize="30dp"
+            android:onClick="operatormines"
+            android:id="@+id/btn_muns">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:text="@string/miltpy"
+            android:textSize="30dp"
+            android:onClick="operatorMutepyt"
+            android:id="@+id/btn_multiply">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:text="@string/dived"
+            android:textSize="30dp"
+            android:onClick="operatorDived"
+            android:id="@+id/btn_dived">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etInput2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Enter second number"
+        android:inputType="textUri|number"
+        android:textColorHint="#F7F50505"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Result"
+        android:textColorHint="#0926E9"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
